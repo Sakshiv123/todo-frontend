@@ -14,7 +14,7 @@ const TodoList = () => {
     Authorization: `Bearer ${token}`,
   };
   //const url = "http://localhost:1000/api/v1/list"
-  const url = "https://todo-backend-ma0w.onrender.com/api/v1/list"
+  const url = "https://todo-backend-ae05.onrender.com/api/v1/list"
 
 
 
