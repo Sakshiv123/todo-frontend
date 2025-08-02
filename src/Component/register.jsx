@@ -32,7 +32,7 @@ const RegisterForm = () => {
     setErrors({});
     try {
       // await axios.post("http://localhost:1000/api/v1/register", formData);
-       await axios.post("https://todo-backend-ma0w.onrender.com/api/v1/register", formData);
+       await axios.post("https://todo-backend-ae05.onrender.com/api/v1/register", formData);
       setToast({ show: true, message: "Registered successfully", type: "success" });
 
       // ✅ Redirect after a short delay (optional)
